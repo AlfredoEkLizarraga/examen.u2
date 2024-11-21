@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/fancybox.css" />
+    <link rel="stylesheet" href="./css/carrousel.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  </head>
+  <body>
+    <header class="menu" id="navbar" id="nav">
+      <div class="header container">
+        <a class="header-logo" href="/"
+          ><img src="./img/logo.jpg" alt="Fin Advision"
+        /></a>
+        <nav class="navbar">
+          <ul class="navbar__links" id="nav">
+            <li><a class="navbar__link" href="#">about us</a></li>
+            <li><a class="navbar__link" href="#">our services</a></li>
+            <li><a class="navbar__link" href="#">projects</a></li>
+            <li><a class="navbar__link" href="#">team</a></li>
+            <li><a class="navbar__link" href="#">latest news</a></li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="slider">
+      <ul class="rslides">
+        <li><img src="./img/slide1.jpg" alt="" /></li>
+        <li><img src="./img/slide2.jpg" alt="" /></li>
+        <li><img src="./img/slide3.jpg" alt="" /></li>
+      </ul>
+      <div class="slide__information">
+        <h1 class="slide__title">Expert Financial Advice</h1>
+        <p class="slide__text">
+          Praesent accumsan nibk Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Ut, ad nostrum inventore rerum minima odit
+          aspernatur.
+        </p>
+        <a class="slide__btn" href="#" id="open">Learn More</a>
+      </div>
+    </section>
+
+    <div class="modal-overlay" id="modal">
+      <div class="modal">
+        <div class="icon">
+          <i class="fa-solid fa-xmark" id="close"></i>
+        </div>
+        <figure class="img-modal">
+          <img src="./img/logo.jpg" alt="Fin Advision" />
+          <img src="./img/fotomodal.jpg" alt="picture" />
+        </figure>
+        <p style="color: #fff; padding: 1rem 0">
+          Somos la empresa Financiera que necesitas, ven y acercate a nosotros
+          para que tu empresa pueda crecer.
+        </p>
+      </div>
+    </div>
+
+    <section class="contenedor">
+      <h1 class="about__tittle">about us</h1>
+      <div class="cards">
+        <div class="card">
+          <i
+            class="wow animate__animated animate__backInRight fa-solid fa-laptop"
+          ></i>
+          <h3 class="wow animate__animated animate__zoomIn card__tittle">
+            marketing services
+          </h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, excepturi. Officiis placeat quae facere aliquam modi
+            repellendus iste corporis molestiae.
+          </p>
+        </div>
+
+        <div class="card">
+          <i
+            class="wow animate__animated animate__backInRight fa-solid fa-chart-line"
+          ></i>
+          <h3 class="wow animate__animated animate__zoomIn card__tittle">
+            marketing research
+          </h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, excepturi. Officiis placeat quae facere aliquam modi
+            repellendus iste corporis molestiae.
+          </p>
+        </div>
+
+        <div class="card">
+          <i
+            class="wow animate__animated animate__backInRight fas fa-id-card"
+          ></i>
+          <h3 class="wow animate__animated animate__zoomIn card__tittle">
+            bussines plans
+          </h3>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, excepturi. Officiis placeat quae facere aliquam modi
+            repellendus iste corporis molestiae.
+          </p>
+        </div>
+
+        <div class="card">
+          <i
+            class="wow animate__animated animate__backInRight fa-solid fa-dollar-sign"
+          ></i>
+          <h3 class="wow animate__animated animate__zoomIn card__tittle">
+            advertising
+          </h3>
+          <p class="animate__slideInUp card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, excepturi. Officiis placeat quae facere aliquam modi
+            repellendus iste corporis molestiae.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contenedor gallery">
+      <a
+        href="./img/galeriafoto1.jpg"
+        data-fancybox="gallery"
+        data-caption="Foto 1"
+      >
+        <figure class="gallery__img">
+          <img src="./img/galeriafoto1.jpg" alt="" />
+        </figure>
+      </a>
+      <a
+        href="./img/galeriafoto2.jpg"
+        data-fancybox="gallery"
+        data-caption="Foto 2"
+      >
+        <figure class="gallery__img">
+          <img src="./img/galeriafoto2.jpg" alt="" />
+        </figure>
+      </a>
+      <a
+        href="./img/galeriafoto3.jpg"
+        data-fancybox="gallery"
+        data-caption="Foto 3"
+      >
+        <figure class="gallery__img">
+          <img src="./img/galeriafoto3.jpg" alt="" />
+        </figure>
+      </a>
+    </section>
+
+    <main class="contenedor">
+      <div class="trigger">
+        <h2 class="">Jhon Tyler</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="content">
+        <figure>
+          <img src="./img/foto_team1.jpg" alt="Jhon" />
+        </figure>
+        <h3>Director of Client Strategy</h3>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="trigger">
+        <h2>Stuart Williams</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="content">
+        <figure>
+          <img src="./img/foto_team2.jpg" alt="Stuart" />
+        </figure>
+        <h3>Account Directory</h3>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="trigger">
+        <h2>Jane Mc'Millan</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="content">
+        <figure>
+          <img src="./img/foto_team3.jpg" alt="Jane" />
+        </figure>
+        <h3>Account Directory</h3>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="trigger">
+        <h2>Samanta Lopez</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="content">
+        <figure>
+          <img src="./img/foto_team4.jpg" alt="Samanta" />
+        </figure>
+        <h3>Account Directory</h3>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </main>
+
+    <section class="contenedor">
+      <h1 class="about__tittle">out services</h1>
+      <div class="news">
+        <figure>
+          <img src="./img/fotoservicio1.jpg" alt="" />
+        </figure>
+        <h2>FIRST BLOG POST</h2>
+        <p class="news__text">AUG 19, 2015</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla
+          quam iure tempore obcaecati quia, dicta adipisci ducimus facere
+          pariatur expedita eligendi ex, eaque cupiditate.
+        </p>
+      </div>
+
+      <div class="news">
+        <figure>
+          <img src="./img/fotoservicio2.jpg" alt="" />
+        </figure>
+        <h2>SECOND BLOG POST</h2>
+        <p class="news__text">AUG 16, 2015</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla
+          quam iure tempore obcaecati quia, dicta adipisci ducimus facere
+          pariatur expedita eligendi ex, eaque cupiditate.
+        </p>
+      </div>
+    </section>
+
+    <section class="sect_lastnews" id="carousel">
+      <div class="slide-buttons">
+        <a href="#" id="back-button" class="arrow back"
+          ><i class="fa-solid fa-arrow-left"></i
+        ></a>
+        <a href="#" id="forward-button" class="arrow forward"
+          ><i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+
+      <div id="slide-container">
+        <article class="slide" data-slideIndex="0">
+          <figure>
+            <img src="img/foto_news1.jpg" alt="" />
+          </figure>
+          <p>
+            Learning to Reach New Audiences Using Social Media Marketing Tools
+          </p>
+          <span>October 29, 2019 \ 6 Comments</span>
+        </article>
+
+        <article class="slide" data-slideIndex="1">
+          <figure>
+            <img src="img/foto_news2.jpg" alt="" />
+          </figure>
+          <p>
+            Learning to Reach New Audiences Using Social Media Marketing Tools
+          </p>
+          <span>September 9, 2019 \ 6 Comments</span>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer-bg">
+      <a href="#nav"
+        ><i
+          class="fa-solid fa-arrow-up"
+          style="color: aqua; text-align: right"
+        ></i
+      ></a>
+      <div class="contenedor footer">
+        <a class="header-logo" href="#"
+          ><img src="./img/logo.jpg" alt="Logo"
+        /></a>
+        <span>&#9400; All Rights Reserved | Privacy Policy</span>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/responsiveslides.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/fancybox.js"></script>
+    <script src="./js/carrousel.js"></script>
+    <script>
+      $(".trigger").click(function () {
+        var t = $(this);
+        var tp = t.next();
+        tp.slideToggle();
+      });
+
+      $("#hamburger").click(function () {
+        $("#nav").slideToggle();
+      });
+
+      $(function () {
+        $(".rslides").responsiveSlides();
+      });
+
+      $("#open").click(function () {
+        $("#modal").addClass("display");
+      });
+      $("#close").click(function () {
+        $("#modal").removeClass("display");
+      });
+      window.onclick = function (ev) {
+        if (ev.target == modal) {
+          $("#modal").removeClass("display");
+        }
+      };
+      document.addEventListener("keydown", function (ev) {
+        if (ev.key === "Escape") {
+          $("#modal").removeClass("display");
+        }
+      });
+
+      new WOW().init();
+
+      Fancybox.bind('[data-fancybox="gallery"]', {});
+    </script>
+  </body>
+</html>
